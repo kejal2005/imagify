@@ -1,12 +1,42 @@
-# React + Vite
+Text-to-Image Generator 
+This project is a Text-to-Image Generator built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+It allows users to input text prompts and generate images based on those prompts using AI.
+The application communicates with a backend server that processes the text, interacts with an AI model (like DALL·E or Stability AI), and returns a generated image to the frontend for display.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+✨ Features
+Input a text prompt and generate a unique image.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+View generated images in a responsive gallery.
 
-## Expanding the ESLint configuration
+Save generated images to the database.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Download images locally.
+
+Clean, user-friendly interface with loading animations.
+
+Error handling for invalid inputs or server issues.
+
+Dark mode support (optional if you added it).
+
+
+🛠️ Tech Stack
+Frontend: React.js, Axios, TailwindCSS (or your styling library)
+
+Backend: Node.js, Express.js
+
+Database: MongoDB
+
+AI Model: Integrated with [API like OpenAI's DALL·E, Stability AI, or custom model].
+
+🚀 How it Works
+User enters a text description (prompt) on the frontend.
+
+Frontend sends a POST request to the backend server.
+
+Backend processes the text and interacts with an AI image generation API.
+
+The generated image URL or base64 data is sent back to the frontend.
+
+The image is displayed to the user and optionally stored in the database.
+
