@@ -40,3 +40,4 @@ The generated image URL or base64 data is sent back to the frontend.
 
 The image is displayed to the user and optionally stored in the database.
 
+
