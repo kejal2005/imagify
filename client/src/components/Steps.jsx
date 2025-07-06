@@ -2,7 +2,7 @@ import React from 'react';
 import { stepsData } from '../assets/assets';
 import { motion } from "framer-motion";
 
-const steps = () => {
+const Steps = () => {
   return (
     <motion.div 
       initial={{ opacity: 0.5, y: 50 }}
@@ -37,4 +37,4 @@ const steps = () => {
   );
 };
 
-export default steps;
+export default Steps;
