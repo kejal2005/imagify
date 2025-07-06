@@ -7,7 +7,7 @@ import Result from './pages/Result';
 import BuyCreidt from './pages/BuyCreidt';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Login from './components/login';
+import Login from './components/Login';
 import { AppConstext } from './context/AppContext';
 
 
