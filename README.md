@@ -1,5 +1,5 @@
 # Imagify - Text to Image Generation Platform  
-Imagify is a modern web application that transforms text descriptions into stunning images using AI technology. Built with a robust tech stack and user-friendly interface, it provides a seamless experience for generating AI-powered images.  
+Imagify is a modern web application that transforms text descriptions into stunning images using AI technology. Built with a robust tech stack and user-friendly interface, it provides a seamless experience for generating AI-powered images....
 > ⚙️ **Note:** This is a **local desktop web application**. Follow the steps below to run it in your **local browser**.
   
 
